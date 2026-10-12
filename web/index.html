@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="fr" data-lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Re-identify me!</title>
+<meta name="description" content="Pourquoi retirer ton nom ne suffit pas à te rendre anonyme : un jeu d'enquête en trois actes sur une colonie de phoques.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Kalam:wght@300;400;700&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--BODY-START-->
+<header class="bar">
+  <a href="https://mguillaudeux.github.io"><span class="fr">← Carnet de Morgan</span><span class="en">← Morgan's notebook</span></a>
+  <div class="lang" role="group" aria-label="Langue / Language">
+    <button type="button" data-set-lang="fr" aria-pressed="true">FR</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main class="notebook">
+
+  <!-- COUVERTURE -->
+  <section class="page" aria-labelledby="t-cover">
+    <div class="cover-grid">
+      <div>
+        <div class="eyebrow"><span class="fr">Une enquête en 3 actes · 10 minutes</span><span class="en">An investigation in 3 acts · 10 minutes</span></div>
+        <h1 id="t-cover">Re-identify <em>me!</em></h1>
+        <p class="lead fr">Laisse-moi te montrer pourquoi <b>retirer ton nom ne suffit pas</b> à te rendre anonyme.</p>
+        <p class="lead en">Let me show you why <b>removing your name isn't enough</b> to make you anonymous.</p>
+        <div class="prose">
+          <p class="fr">Sur l'île de Kerdata vit une colonie de <b data-fill="n">2 000</b> phoques. Le soigneur les connaît tous. Dans son registre, il note pour chacun où il se repose, son âge, la couleur de son pelage… et même son petit secret.</p>
+          <p class="en">On Kerdata Island lives a colony of <b data-fill="n">2,000</b> seals. The keeper knows every one of them. In his register he writes down where each one rests, its age, the colour of its coat… and even its little secret.</p>
+          <p class="fr">Il veut partager ce registre avec des scientifiques. Pour protéger ses phoques, il a enlevé tous les noms. « Comme ça, c'est anonyme », dit-il.</p>
+          <p class="en">He wants to share this register with scientists. To protect his seals, he removed every name. "There, it's anonymous," he says.</p>
+        </div>
+        <div class="poulpe" style="margin:0">
+          <img src="assets/pieuvre-tete.webp" width="160" height="160" alt="">
+          <div class="bubble"><span class="who"><span class="fr">Inspecteur Poulpe</span><span class="en">Inspector Octo</span></span>
+            <p class="fr">Hmm. Je n'en suis pas si sûr. Aide-moi à vérifier !</p>
+            <p class="en">Hmm. I'm not so sure. Help me check!</p>
+          </div>
+        </div>
+      </div>
+      <figure class="sketch">
+        <img src="assets/colonie.webp" width="640" height="473" alt="Croquis d'une colonie de phoques au repos sur un îlot rocheux de Kerdata">
+        <figcaption><span class="fr">La colonie de Kerdata, à marée basse</span><span class="en">The Kerdata colony, at low tide</span></figcaption>
+      </figure>
+    </div>
+
+    <ol class="acts" aria-label="Sommaire / Contents">
+      <li><a href="#acte1"><span class="n"><span class="fr">Acte I</span><span class="en">Act I</span></span><span class="t"><span class="fr">Devine qui</span><span class="en">Guess who</span></span><span class="aq"><span class="fr">Combien d'indices pour reconnaître un phoque ?</span><span class="en">How many clues to recognise a seal?</span></span></a></li>
+      <li><a href="#acte2"><span class="n"><span class="fr">Acte II</span><span class="en">Act II</span></span><span class="t"><span class="fr">Le test du registre</span><span class="en">Testing the register</span></span><span class="aq"><span class="fr">Le registre sans nom protège-t-il vraiment ?</span><span class="en">Does the nameless register really protect?</span></span></a></li>
+      <li><a href="#acte3"><span class="n"><span class="fr">Acte III</span><span class="en">Act III</span></span><span class="t"><span class="fr">À toi de protéger</span><span class="en">Your turn to protect</span></span><span class="aq"><span class="fr">Comment partager sans trahir personne ?</span><span class="en">How to share without betraying anyone?</span></span></a></li>
+      <li><a href="#rapport"><span class="n"><span class="fr">Fin</span><span class="en">End</span></span><span class="t"><span class="fr">Le rapport</span><span class="en">The report</span></span><span class="aq"><span class="fr">Ce qu'on a prouvé ensemble</span><span class="en">What we proved together</span></span></a></li>
+    </ol>
+
+    <dl class="words">
+      <h4><span class="fr">Les mots de l'enquête</span><span class="en">Investigation words</span></h4>
+      <div><dt><span class="fr">Registre</span><span class="en">Register</span></dt><dd><span class="fr">Un tableau. Chaque ligne est un phoque.</span><span class="en">A table. Each row is a seal.</span></dd></div>
+      <div><dt><span class="fr">Attribut</span><span class="en">Attribute</span></dt><dd><span class="fr">Une information sur un phoque : son âge, son pelage…</span><span class="en">A piece of information about a seal: its age, its coat…</span></dd></div>
+      <div><dt>Unique</dt><dd><span class="fr">Le seul de la colonie à avoir cette combinaison d'attributs.</span><span class="en">The only one in the colony with this combination of attributes.</span></dd></div>
+      <div><dt><span class="fr">Anonyme</span><span class="en">Anonymous</span></dt><dd><span class="fr">Impossible de savoir de qui on parle, même en croisant avec d'autres infos.</span><span class="en">Impossible to tell who it is, even by cross-checking other information.</span></dd></div>
+    </dl>
+  </section>
+
+  <!-- ACTE I -->
+  <section class="page" id="acte1" aria-labelledby="t-a1">
+    <div class="entry-head">
+      <span class="tag"><span class="fr">Acte I</span><span class="en">Act I</span></span>
+      <h2 id="t-a1"><span class="fr">Devine qui</span><span class="en">Guess who</span></h2>
+    </div>
+    <p class="goal"><b><span class="fr">Objectif</span><span class="en">Goal</span></b><span><span class="fr">Voir qu'il suffit de quelques informations banales pour reconnaître un phoque, sans connaître son nom.</span><span class="en">See that a few ordinary pieces of information are enough to recognise a seal, without knowing its name.</span></span></p>
+    <div class="poulpe">
+      <img src="assets/pieuvre-tete.webp" width="160" height="160" alt="">
+      <div class="bubble"><span class="who"><span class="fr">Inspecteur Poulpe</span><span class="en">Inspector Octo</span></span>
+        <p class="fr">Tu connais le Qui est-ce ? J'ai choisi un phoque en secret parmi ces 24. <b>Une fiche, c'est un phoque dans le registre. Une question, c'est un attribut.</b> Trouve-le en posant le moins de questions possible.</p>
+        <p class="en">Know the game Guess Who? I secretly picked one seal among these 24. <b>A card is a seal in the register. A question is an attribute.</b> Find it with as few questions as possible.</p>
+      </div>
+    </div>
+    <ol class="steps">
+      <li><span class="k">1</span><span class="fr">Pose une question.</span><span class="en">Ask a question.</span></li>
+      <li><span class="k">2</span><span class="fr">Les fiches qui ne collent pas s'effacent.</span><span class="en">Cards that don't match fade out.</span></li>
+      <li><span class="k">3</span><span class="fr">Quand tu as trouvé, clique sur la fiche.</span><span class="en">When you know, click the card.</span></li>
+    </ol>
+    <div class="game">
+      <div style="min-width:0">
+        <div class="questions" id="questions" role="group" aria-label="Questions"></div>
+        <div class="board" id="board"></div>
+      </div>
+      <aside class="side" id="side" aria-live="polite"></aside>
+    </div>
+    <div id="a1-result" aria-live="polite"></div>
+
+    <div class="sub">
+      <h3><span class="fr">Et avec toute la colonie ?</span><span class="en">And with the whole colony?</span></h3>
+      <p class="prose fr">Avec 24 fiches, c'est facile. Mais la colonie compte <b data-fill="n">2 000</b> phoques. Posons les questions une à une, toujours dans le même ordre, et comptons les phoques qui deviennent <b>uniques</b> : ceux qu'on reconnaît à coup sûr si on connaît ces réponses.</p>
+      <p class="prose en">With 24 cards it's easy. But the colony has <b data-fill="n">2,000</b> seals. Let's ask the questions one by one, always in the same order, and count the seals that become <b>unique</b>: the ones you can recognise for sure if you know these answers.</p>
+      <ol class="curve" id="curve" aria-label="Part de phoques uniques / Share of unique seals"></ol>
+      <div class="axis" aria-hidden="true"><span></span><span class="ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100 %</span></span><span></span></div>
+      <p class="hint" style="margin-top:8px"><span class="fr">Sous chaque attribut, son équivalent chez les humains.</span><span class="en">Under each attribute, its human equivalent.</span></p>
+      <p class="callout" id="curve-callout"></p>
+    </div>
+
+    <div class="remember"><b><span class="fr">À retenir</span><span class="en">Remember</span></b>
+      <p class="fr">Ce n'est pas une information qui te trahit, c'est leur combinaison. Pas besoin de ton nom pour te reconnaître.</p>
+      <p class="en">It isn't one piece of information that gives you away, it's the combination. Nobody needs your name to recognise you.</p>
+    </div>
+    <aside class="humans">
+      <h4><span class="fr">Et chez les humains ?</span><span class="en">What about humans?</span></h4>
+      <p class="fr">En 2000, la chercheuse Latanya Sweeney estime que <span class="fig">87 %</span> des Américains sont uniques avec seulement trois informations : leur code postal, leur sexe et leur date de naissance.</p>
+      <p class="en">In 2000, researcher Latanya Sweeney estimated that <span class="fig">87%</span> of Americans are unique with just three pieces of information: their ZIP code, sex and date of birth.</p>
+      <p class="fr">En 2019, Luc Rocher, Julien Hendrickx et Yves-Alexandre de Montjoye montrent que <span class="fig">99,98 %</span> des Américains seraient correctement ré-identifiés dans n'importe quel jeu de données avec 15 attributs démographiques (âge, métier, nombre d'enfants…).</p>
+      <p class="en">In 2019, Luc Rocher, Julien Hendrickx and Yves-Alexandre de Montjoye showed that <span class="fig">99.98%</span> of Americans would be correctly re-identified in any dataset with 15 demographic attributes (age, job, number of children…).</p>
+    </aside>
+  </section>
+
+  <!-- ACTE II -->
+  <section class="page" id="acte2" aria-labelledby="t-a2">
+    <div class="entry-head">
+      <span class="tag"><span class="fr">Acte II</span><span class="en">Act II</span></span>
+      <h2 id="t-a2"><span class="fr">Le test du registre</span><span class="en">Testing the register</span></h2>
+    </div>
+    <p class="goal"><b><span class="fr">Objectif</span><span class="en">Goal</span></b><span><span class="fr">Vérifier si le registre sans nom protège vraiment les phoques quand on le croise avec des informations publiques.</span><span class="en">Check whether the nameless register really protects the seals once it's cross-checked with public information.</span></span></p>
+    <div class="poulpe">
+      <img src="assets/pieuvre-tete.webp" width="160" height="160" alt="">
+      <div class="bubble"><span class="who"><span class="fr">Inspecteur Poulpe</span><span class="en">Inspector Octo</span></span>
+        <p class="fr">Le soigneur a publié son registre. À la place des noms, il a mis des codes, comme <span class="mono">KD-3F2A1</span> : on appelle ça des <b>pseudonymes</b>. Il pense que c'est anonyme. Moi, j'ai des doutes, alors on va le tester.</p>
+        <p class="fr">Prenons Gwen, la chouchoute du soigneur. Il poste régulièrement des photos d'elle sur les réseaux sociaux, et tout le monde peut les voir. La question : avec ces informations publiques, peut-on retrouver sa ligne dans le registre ?</p>
+        <p class="en">The keeper published his register. Instead of names, he used codes like <span class="mono">KD-3F2A1</span>: these are called <b>pseudonyms</b>. He thinks it's anonymous. I have my doubts, so let's test it.</p>
+        <p class="en">Take Gwen, the keeper's favourite. He regularly posts photos of her on social media, and anyone can see them. The question: with this public information, can we find her row in the register?</p>
+      </div>
+    </div>
+    <ol class="steps">
+      <li><span class="k">1</span><span class="fr">Ajoute les indices un par un.</span><span class="en">Add the clues one by one.</span></li>
+      <li><span class="k">2</span><span class="fr">Regarde combien de lignes du registre correspondent encore.</span><span class="en">Watch how many register rows still match.</span></li>
+    </ol>
+    <div class="attack">
+      <div>
+        <p class="panel-title"><span class="fr">Ce qu'on sait de Gwen grâce aux réseaux sociaux (une source extérieure)</span><span class="en">What we know about Gwen from social media (an outside source)</span></p>
+        <div class="clues" id="clues" role="group" aria-label="Indices / Clues"></div>
+      </div>
+      <div style="min-width:0">
+        <p class="panel-title"><span class="fr">Lignes du registre qui correspondent</span><span class="en">Register rows that match</span></p>
+        <div class="funnel" id="funnel" aria-live="polite"></div>
+        <div class="registry-wrap"><table id="registry"></table></div>
+        <div class="row" style="margin-top:12px"><button class="btn" type="button" id="reset-attack"><span class="fr">Recommencer le test</span><span class="en">Restart the test</span></button></div>
+      </div>
+    </div>
+    <div id="a2-result" aria-live="polite"></div>
+
+    <div class="remember"><b><span class="fr">À retenir</span><span class="en">Remember</span></b>
+      <p class="fr">Remplacer le nom par un code, c'est <b>pseudonymiser</b>, pas anonymiser. Il suffit de croiser le registre avec une autre source pour retrouver quelqu'un.</p>
+      <p class="en">Replacing a name with a code is <b>pseudonymisation</b>, not anonymisation. Cross-checking the register with another source is enough to find someone.</p>
+    </div>
+    <aside class="humans">
+      <h4><span class="fr">Et chez les humains ?</span><span class="en">What about humans?</span></h4>
+      <p class="fr">En 1997, une assurance du Massachusetts partage les dossiers hospitaliers de fonctionnaires, sans les noms. Latanya Sweeney achète la liste électorale de Cambridge pour 20 dollars, croise code postal, date de naissance et sexe, et retrouve le dossier médical du gouverneur. En 2008, des chercheurs retrouvent des abonnés Netflix à partir de quelques notes de films, recoupées avec le site IMDb.</p>
+      <p class="en">In 1997, a Massachusetts insurer shared state employees' hospital records, without names. Latanya Sweeney bought the Cambridge voter roll for 20 dollars, matched ZIP code, date of birth and sex, and found the governor's medical record. In 2008, researchers identified Netflix subscribers from a few movie ratings, cross-referenced with IMDb.</p>
+      <p class="fr">C'est pour ça que le RGPD considère que des données pseudonymisées restent <b>des données personnelles</b>.</p>
+      <p class="en">That's why the GDPR treats pseudonymised data as <b>personal data</b>.</p>
+    </aside>
+  </section>
+
+  <!-- ACTE III -->
+  <section class="page" id="acte3" aria-labelledby="t-a3">
+    <div class="entry-head">
+      <span class="tag"><span class="fr">Acte III</span><span class="en">Act III</span></span>
+      <h2 id="t-a3"><span class="fr">À toi de protéger</span><span class="en">Your turn to protect</span></h2>
+    </div>
+    <p class="goal"><b><span class="fr">Objectif</span><span class="en">Goal</span></b><span><span class="fr">Trouver un réglage qui protège tous les phoques tout en restant utile aux scientifiques.</span><span class="en">Find a setting that protects every seal while staying useful to scientists.</span></span></p>
+    <div class="poulpe">
+      <img src="assets/pieuvre-tete.webp" width="160" height="160" alt="">
+      <div class="bubble"><span class="who"><span class="fr">Inspecteur Poulpe</span><span class="en">Inspector Octo</span></span>
+        <p class="fr">Changement de rôle : <b>c'est toi le soigneur</b> ! Tu dois publier le registre. On suppose qu'un curieux connaît, comme pour Gwen, ces six attributs d'un phoque. Pour chacun, tu peux le garder tel quel, le rendre plus flou, ou le cacher. Tu peux aussi retirer les phoques qui restent trop seuls. Les trois objectifs s'allument quand tu les remplis.</p>
+        <p class="en">Switching roles: <b>you're the keeper now</b>! You must publish the register. Assume a snoop knows these six attributes of a seal, like with Gwen. For each one you can keep it, blur it, or hide it. You can also remove seals that remain too lonely. The three goals light up when you meet them.</p>
+      </div>
+    </div>
+    <ol class="mission" id="mission" aria-live="polite"></ol>
+    <div class="scramble">
+      <div>
+        <p class="panel-title"><span class="fr">Tes réglages</span><span class="en">Your settings</span></p>
+        <div class="knobs" id="knobs"></div>
+      </div>
+      <div>
+        <p class="panel-title"><span class="fr">Ce que ça donne</span><span class="en">What it gives</span></p>
+        <div class="meters" id="meters" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="sub" style="margin-top:28px;padding-top:22px">
+      <h3><span class="fr">Les 3 questions des scientifiques</span><span class="en">The scientists' 3 questions</span></h3>
+      <p class="hint fr">Leur réponse avec le vrai registre, et avec le registre que tu publies. Si c'est trop flou, ils ne peuvent plus répondre.</p>
+      <p class="hint en">Their answer with the true register, and with the register you publish. Too blurry, and they can't answer anymore.</p>
+      <div class="registry-wrap eco"><table id="eco"></table></div>
+    </div>
+    <div id="win" class="win" aria-live="polite"></div>
+
+    <div class="sub">
+      <h3><span class="fr">Bonus : et si on inventait une fausse colonie ?</span><span class="en">Bonus: what if we invented a fake colony?</span></h3>
+      <p class="prose fr">Autre idée : au lieu de flouter le vrai registre, on fabrique une colonie imaginaire qui lui ressemble. Ce sont des <b>données synthétiques</b>. Notre générateur est volontairement simple : il tire chaque attribut au hasard, selon ce qu'on observe chez les mâles et chez les femelles.</p>
+      <p class="prose en">Another idea: instead of blurring the real register, build an imaginary colony that looks like it. That's <b>synthetic data</b>. Our generator is deliberately simple: it draws each attribute at random, following what we see in males and in females.</p>
+      <div class="row"><button class="btn primary" type="button" id="make-synth"><span class="fr">Fabriquer une fausse colonie</span><span class="en">Build a fake colony</span></button></div>
+      <div class="synth" id="synth" aria-live="polite"></div>
+    </div>
+
+    <div class="remember"><b><span class="fr">À retenir</span><span class="en">Remember</span></b>
+      <p class="fr">Protéger des données, c'est toujours un compromis : plus c'est flou, moins c'est risqué, mais moins c'est utile. Le bon réglage dépend de l'usage, et il se mesure.</p>
+      <p class="en">Protecting data is always a trade-off: the blurrier, the safer, but the less useful. The right setting depends on the use, and it can be measured.</p>
+    </div>
+  </section>
+
+  <!-- RAPPORT -->
+  <section class="page" id="rapport" aria-labelledby="t-rep">
+    <div class="report-head">
+      <div>
+        <div class="entry-head">
+          <span class="tag"><span class="fr">Fin de l'enquête</span><span class="en">End of the investigation</span></span>
+          <h2 id="t-rep"><span class="fr">Le rapport de l'inspecteur Poulpe</span><span class="en">Inspector Octo's report</span></h2>
+        </div>
+        <dl class="case">
+          <dt><span class="fr">Affaire</span><span class="en">Case</span></dt>
+          <dd><span class="fr">Le registre « anonyme » de Kerdata</span><span class="en">The "anonymous" Kerdata register</span></dd>
+          <dt>Question</dt>
+          <dd><span class="fr">Enlever les noms suffit-il à rendre le registre anonyme ?</span><span class="en">Is removing the names enough to make the register anonymous?</span></dd>
+          <dt><span class="fr">Verdict</span><span class="en">Verdict</span></dt>
+          <dd><span class="verdict"><span class="fr">Non</span><span class="en">No</span></span></dd>
+        </dl>
+      </div>
+      <figure class="sketch" style="max-width:300px">
+        <img src="assets/pieuvre.webp" width="640" height="473" alt="Croquis de l'inspecteur Poulpe, loupe à la main">
+      </figure>
+    </div>
+    <p class="prose" style="margin-top:22px"><span class="fr">Pour juger si des données sont vraiment anonymes, les autorités européennes de protection des données, réunies au sein du CEPD, posent trois questions (avis 05/2014 sur les techniques d'anonymisation). Des données anonymes doivent résister aux trois. Tu as trouvé une preuve pour chacune :</span><span class="en">To judge whether data is truly anonymous, European data protection authorities, gathered in the EDPB, ask three questions (Opinion 05/2014 on anonymisation techniques). Anonymous data must withstand all three. You found evidence for each one:</span></p>
+    <ol class="proofs" id="proofs"></ol>
+
+    <div class="remember"><b><span class="fr">Et pour toi ?</span><span class="en">And for you?</span></b>
+      <p class="fr">Remplace « phoque » par « patient », « lieu de repos » par « adresse » et « petit secret » par « maladie ». C'est exactement la même histoire. C'est pour ça que des données sans nom ne sont pas forcément anonymes, et que la loi continue de les protéger.</p>
+      <p class="en">Replace "seal" with "patient", "resting spot" with "address" and "little secret" with "illness". It's exactly the same story. That's why data without names isn't necessarily anonymous, and why the law keeps protecting it.</p>
+    </div>
+
+    <div class="two">
+      <div>
+        <h3><span class="fr">Pour aller plus loin</span><span class="en">Further reading</span></h3>
+        <ul class="refs">
+          <li><span class="y">2019</span><a href="https://www.nature.com/articles/s41467-019-10933-3">Rocher, Hendrickx &amp; de Montjoye · Estimating the success of re-identifications in incomplete datasets using generative models</a> · <i>Nature Communications</i></li>
+          <li><span class="y">2014</span><a href="https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"><span class="fr">CEPD (ex-G29) · Avis 05/2014 sur les techniques d'anonymisation</span><span class="en">EDPB (formerly WP29) · Opinion 05/2014 on Anonymisation Techniques</span></a></li>
+          <li><span class="y">2008</span><a href="https://arxiv.org/abs/cs/0610105">Narayanan &amp; Shmatikov · Robust De-anonymization of Large Sparse Datasets</a></li>
+          <li><span class="y">2000</span><a href="https://dataprivacylab.org/projects/identifiability/paper1.pdf">Sweeney · Simple Demographics Often Identify People Uniquely</a></li>
+          <li><span class="y">2016</span><a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj"><span class="fr">RGPD · considérant 26 et article 4(5)</span><span class="en">GDPR · recital 26 and Article 4(5)</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="fr">Sous le capot</span><span class="en">Under the hood</span></h3>
+        <p class="fr">La colonie est générée par un petit paquet Python, <span class="mono">kerdata</span>, testé et typé. Le code et le notebook sont sur <a href="https://github.com/mguillaudeux/re-identify-me">GitHub</a>.</p>
+        <p class="en">The colony is generated by a small, tested and typed Python package, <span class="mono">kerdata</span>. Code and notebook are on <a href="https://github.com/mguillaudeux/re-identify-me">GitHub</a>.</p>
+<pre class="cmd"><span class="c"># uv + just</span>
+just setup       <span class="c"># uv sync</span>
+just report      <span class="c"># courbe d'unicité / uniqueness curve</span>
+just generate    <span class="c"># web/data/kerdata.json</span>
+just check       <span class="c"># ruff · mypy · pytest</span></pre>
+      </div>
+    </div>
+    <div class="end">
+      <p style="margin:0"><span class="fr">Une question, une remarque ? Écris-moi sur <a href="https://www.linkedin.com/in/morgan-g-331275173">LinkedIn</a>.</span><span class="en">A question, a comment? Reach me on <a href="https://www.linkedin.com/in/morgan-g-331275173">LinkedIn</a>.</span></p>
+      <span class="sign"><span class="fr">Morgan &amp; l'inspecteur Poulpe</span><span class="en">Morgan &amp; Inspector Octo</span></span>
+    </div>
+  </section>
+</main>
+<p class="colophon"><span class="fr">Kerdata et ses phoques sont fictifs. Aucune donnée réelle n'a été maltraitée.</span><span class="en">Kerdata and its seals are fictional. No real data was harmed.</span> · MIT</p>
+<!--BODY-END-->
+<script src="app.js"></script>
+</body>
+</html>
